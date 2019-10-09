@@ -25,6 +25,9 @@ structure for security reasons.
 Nothing special at the moment, some optimizations, improvements and changes
 in the structure.
 
+## What's not included:
+Codeigniter User Guide. (Kidding me???)
+
 ### Language:
 System (Codeigniter) language files for "english" and "german" are included.
 
@@ -36,24 +39,24 @@ CatchAll Routes are build in.
 
 #### Advantage:
 
-1. You can create SEO friendly links without a nesting folder structure, e.g. `http://yourdomain/services/print/design`.
-	* In this case you only need a Controller in `/app/controllers/pages/` called `Design.php` if you need a controller.
+1. You can create SEO friendly links without a nesting folder structure, e.g. **`http://yourdomain/services/print/design`**.
+	* In this case you only need a Controller in **`/app/controllers/pages/`** called **`Design.php`** if you need a controller.
 	* Most of the time we use **dynamic content**, fetched with a database call. In this case you don't need a controller. Fresh is
 	looking for a slug in our database, if found, page is shown, if not, 404 is shown.
 
 
 2. FRESH! is searching for a controller with the name "design.php" in your CatchAll directory.
 
-**Important**: You can change the CatchAll Controller Name `$route['catch_controller']` in `/app/config/routes` folder.
-If you do so, you have to rename the appropriate foldername in `/app/controllers/` and you have to create an module
-in folder `/app/modules/` with the same name and a Controller for the Module with the same name.
+**Important**: You can change the CatchAll Controller Name **`$route['catch_controller']`** in **`/app/config/routes`** folder.
+If you do so, you have to rename the appropriate foldername in **`/app/controllers/`** and you have to create an module
+in folder **`/app/modules/`** with the same name and a Controller for the Module with the same name.
 
 ### .htaccess
-The .htaccess file in /public folder is included. System is preconfigured for
-MOD_REWRITE Urls.
+The .htaccess file in **`/public`** folder is included. System is preconfigured for
+mod_rewrite usage.
 
 ### /config/app.php
-The /config/app.php file in /app/config folder is included.
+The **`/config/app.php`** file in **`/app/config`** folder is included.
 
 ## Versioning:
 I use the same Version number as Codeigniter, so you can download the FRESH!
@@ -61,11 +64,12 @@ version with the appropriate Version of Codeiginter.
 
 ## Server Requirements
 
-PHP version 5.6 or newer is recommended. I tested PHP version 7.3.8
+PHP version 5.6 or newer is recommended. I tested PHP version 7.3.8, everything fine.
 
 It should work on 5.3.7 as well, but we strongly advise you NOT to run
 such old versions of PHP, because of potential security and performance
-issues, as well as missing features.
+issues, as well as missing features. So, talk to the clients, these versions should
+normally not served anylonger.
 
 ## License
 
