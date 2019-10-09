@@ -19,7 +19,7 @@ by Renkert - Lead-Developer:
 Download the script and keep in mind, that I reorganized the original Codeigniter
 structure for security reasons.
 
-**Important**: The Web Root has to be set to the `**/public**` folder.
+**Important**: The Web Root has to be set to the **`/public`** folder.
 
 ## What's included:
 Nothing special at the moment, some optimizations, improvements and changes
@@ -36,17 +36,17 @@ CatchAll Routes are build in.
 
 #### Advantage:
 
-1. You can create SEO friendly links without a nesting folder structure, e.g. "http://yourdomain/services/print/design".
-	* In this case you only need a Controller in **/app/controllers/pages/** called **Design.php** if you need a controller.
-	* Most of the time we use dynamic content, fetched with a database call. In this case you don't need a controller. Fresh is
+1. You can create SEO friendly links without a nesting folder structure, e.g. `http://yourdomain/services/print/design`.
+	* In this case you only need a Controller in `/app/controllers/pages/` called `Design.php` if you need a controller.
+	* Most of the time we use **dynamic content**, fetched with a database call. In this case you don't need a controller. Fresh is
 	looking for a slug in our database, if found, page is shown, if not, 404 is shown.
 
 
 2. FRESH! is searching for a controller with the name "design.php" in your CatchAll directory.
 
-**Important**: You can change the CatchAll Controller Name **$route['catch_controller']** in **/app/config/routes** folder.
-If you do so, you have to rename the appropriate foldername in **/app/controllers/** and you have to create an module
-in folder **/app/modules/** with the same name and a Controller for the Module with the same name.
+**Important**: You can change the CatchAll Controller Name `$route['catch_controller']` in `/app/config/routes` folder.
+If you do so, you have to rename the appropriate foldername in `/app/controllers/` and you have to create an module
+in folder `/app/modules/` with the same name and a Controller for the Module with the same name.
 
 ### .htaccess
 The .htaccess file in /public folder is included. System is preconfigured for
