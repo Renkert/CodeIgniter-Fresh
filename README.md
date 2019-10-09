@@ -2,7 +2,7 @@
 
 ## History
 
-We work mostly with LARAVELL and CODEIGNITER. Due to the fact that Codeigniter
+We work mostly with LARAVEL and CODEIGNITER. Due to the fact that Codeigniter
 is very stable and extremely fast, we realize 75% of our projects with Codeigniter.
 So, not a bad idea to create a project template for the whole staff.
 
@@ -19,7 +19,7 @@ by Renkert - Lead-Developer:
 Download the script and keep in mind, that I reorganized the original Codeigniter
 structure for security reasons.
 
-**Important**: The Web Root has to be set to the **/public** folder.
+**Important**: The Web Root has to be set to the '**/public**' folder.
 
 ## What's included:
 Nothing special at the moment, some optimizations, improvements and changes
@@ -37,7 +37,10 @@ CatchAll Routes are build in.
 #### Advantage:
 
 1. You can create SEO friendly links without a nesting folder structure, e.g. "http://yourdomain/services/print/design".
-1.1 in this case you only need a Controller in **/app/controllers/pages/** called **Design.php**.
+	* In this case you only need a Controller in **/app/controllers/pages/** called **Design.php** if you need a controller.
+	* Most of the time we use dynamic content, fetched with a database call. In this case you don't need a controller. Fresh is
+	looking for a slug in our database, if found, page is shown, if not, 404 is shown.
+
 
 2. FRESH! is searching for a controller with the name "design.php" in your CatchAll directory.
 
