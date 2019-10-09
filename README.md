@@ -25,9 +25,6 @@ structure for security reasons.
 Nothing special at the moment, some optimizations, improvements and changes
 in the structure.
 
-## What's not included:
-Codeigniter User Guide. (Kidding me???)
-
 ### Language:
 System (Codeigniter) language files for "english" and "german" are included.
 
@@ -57,6 +54,9 @@ mod_rewrite usage.
 
 ### /config/app.php
 The **`/config/app.php`** file in **`/app/config`** folder is included.
+
+## What's not included:
+Codeigniter User Guide. (Kidding me???)
 
 ## Versioning:
 I use the same Version number as Codeigniter, so you can download the FRESH!
