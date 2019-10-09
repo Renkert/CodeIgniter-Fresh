@@ -19,7 +19,7 @@ by Renkert - Lead-Developer:
 Download the script and keep in mind, that I reorganized the original Codeigniter
 structure for security reasons.
 
-**Important**: The Web Root has to be set to the '**/public**' folder.
+**Important**: The Web Root has to be set to the `**/public**` folder.
 
 ## What's included:
 Nothing special at the moment, some optimizations, improvements and changes
