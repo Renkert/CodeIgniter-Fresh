@@ -1,0 +1,30 @@
+## Mac .DS_Stroe files
+.DS_Store
+
+app/cache/*
+!app/cache/index.html
+
+app/logs/*
+!app/logs/index.html
+
+!app/*/.htaccess
+
+composer.lock
+
+user_guide_src/build/*
+user_guide_src/cilexer/build/*
+user_guide_src/cilexer/dist/*
+user_guide_src/cilexer/pycilexer.egg-info/*
+#/vendor/
+
+
+# IDE Files
+#-------------------------
+/nbproject/
+.idea/*
+
+## Atom Editorconfig
+.editorconfig
+
+/tests/tests/
+/tests/results/
