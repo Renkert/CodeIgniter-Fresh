@@ -56,7 +56,11 @@ mod_rewrite usage.
 The **`/config/app.php`** file in **`/app/config`** folder is included.
 
 ## What's not included:
-Codeigniter User Guide. (Kidding me???)
+* Codeigniter User Guide. (Kidding me???)
+* The real **Template Library** (I will create a separate repository)
+* The **Model Library** (I will create a separate repository)
+* The **UIKit3 Library** (I will create a separate repository... maybe)
+
 
 ## Versioning:
 I use the same Version number as Codeigniter, so you can download the FRESH!
@@ -68,8 +72,8 @@ PHP version 5.6 or newer is recommended. I tested PHP version 7.3.8, everything 
 
 It should work on 5.3.7 as well, but we strongly advise you NOT to run
 such old versions of PHP, because of potential security and performance
-issues, as well as missing features. So, talk to the clients, these versions should
-normally not served anylonger.
+issues, as well as missing features. So, talk to the clients, these versions
+should not be offered and used anymore.
 
 ## License
 
